@@ -10,7 +10,7 @@ It can be done by dropping the jar in `lib/ext` of Maven distribution or `.mvn/e
 [source,xml]
 ----
 <extension>
-  <groupId>org.example</groupId>
+  <groupId>io.yupiik.maven</groupId>
   <artifactId>maven-proxy-configurer</artifactId>
   <version>${extension.version}</version>
 </extension>
