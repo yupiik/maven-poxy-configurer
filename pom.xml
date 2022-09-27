@@ -73,14 +73,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M7</version>
-        <configuration>
-          <trimStackTrace>false</trimStackTrace>
-          <systemPropertyVariables>
-            <java.util.logging.manager>io.yupiik.logging.jul.YupiikLogManager</java.util.logging.manager>
-            <yupiik.tomcat.port>0</yupiik.tomcat.port>
-            <java.net.preferIPv4Stack>true</java.net.preferIPv4Stack>
-          </systemPropertyVariables>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
