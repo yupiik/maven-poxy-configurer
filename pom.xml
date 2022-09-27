@@ -21,7 +21,7 @@
 
   <groupId>org.example</groupId>
   <artifactId>maven-proxy-configurer</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>maven-poxy-configurer</name>
   <description>Simple Maven Extension to enable proxy user/password setup (useful for some plugins like jib).</description>
   <packaging>pom</packaging>
@@ -293,7 +293,7 @@ under the License.
     <connection>scm:git:https://github.com/yupiik/maven-poxy-configurer.git</connection>
     <developerConnection>scm:git:https://github.com/yupiik/maven-poxy-configurer.git</developerConnection>
     <url>https://github.com/yupiik/maven-poxy-configurer.git</url>
-    <tag>maven-proxy-configurer-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
