@@ -1,0 +1,17 @@
+= Maven Proxy Configurer
+
+Enables to switch the default `ProxySelector` in maven.
+
+== Installation/Setup
+
+Simply register the module as a Maven extension.
+It can be done by dropping the jar in `lib/ext` of Maven distribution or `.mvn/extensions.xml` of the project - or directly in `<build>/<extensions>` of the pom if you prefer:
+
+[source,xml]
+----
+<extension>
+  <groupId>org.example</groupId>
+  <artifactId>maven-proxy-configurer</artifactId>
+  <version>${extension.version}</version>
+</extension>
+----
