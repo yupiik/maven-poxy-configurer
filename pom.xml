@@ -24,7 +24,6 @@
   <version>1.0.1-SNAPSHOT</version>
   <name>maven-poxy-configurer</name>
   <description>Simple Maven Extension to enable proxy user/password setup (useful for some plugins like jib).</description>
-  <packaging>pom</packaging>
   <url>https://github.io/yupiik/maven-proxy-configurer/</url>
 
   <organization>
